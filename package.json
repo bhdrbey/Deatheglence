@@ -1,0 +1,15 @@
+{
+  "name": "discord-ship-itiraf-botu",
+  "version": "1.0.0",
+  "description": "Discord Ship ve İtiraf Botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.66",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
