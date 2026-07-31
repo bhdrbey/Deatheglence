@@ -19,7 +19,7 @@ const { createCanvas, loadImage } = require('@napi-rs/canvas');
 
 // --- 1. UPTIMEROBOT İÇİN EXPRESS WEB SUNUCUSU ---
 const app = express();
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => res.send('Bot 7/24 Aktif! UptimeRobot Bağlantısı Sağlıklı.'));
 app.listen(PORT, () => console.log(`[Express Web Engine] Port ${PORT} üzerinde dinleniyor.`));
